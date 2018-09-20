@@ -70,7 +70,7 @@ for(let i = 0; i < distance.length; i++) {
 
 let cities = [...citiesSet];
 
-var result = new Array(4);
+var result = Array(4);
 
 for(let f = 0; f < cities.length; f++) {
     result[f] = Array(4);
