@@ -79,7 +79,7 @@ for(let f = 0; f < cities.length; f++) {
         let fromCity = cities[f];
         let toCity = cities[t];
         
-        let distanceResult = distance.find(v => v.from == fromCity && v.to == toCity) || distance.find(v => v.to == fromCity && v.from == toCity);
+        let distanceResult = distance.find(v => (v.from == fromCity && v.to == toCity) || (v.to == fromCity && v.from == toCity));
         
         let d = distanceResult && distanceResult.value || 0;
 
