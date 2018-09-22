@@ -3,7 +3,7 @@ let stack = [];
 
 stack.push(1);
 
-stack.pop(2);
+stack.pop();
 
 // Question : Implement a queue with Javascript
 let queue = [];
