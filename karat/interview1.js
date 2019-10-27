@@ -91,7 +91,8 @@ function subset(img, r, c, visited) {
 //   return { w, h };
 // }
 
-function process(img) {
+var process =(img)=>{
+  
  const results = [];
   
  const visited = new Array(img.length);
